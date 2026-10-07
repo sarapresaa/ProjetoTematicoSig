@@ -1,49 +1,35 @@
-# ProjetoTematicoSIG
+# ProjetoTemáticoSIG
 
+Aplicação web de mapas para pesquisar farmácias, hospitais e restaurantes, com rotas e locais próximos. Projeto de grupo.
 
-Projeto SIG desenvolvido com:
-- SvelteKit
-- OpenLayers
-- FastAPI
-- PostgreSQL + PostGIS
-- Redis
+## Tecnologias
+SvelteKit · OpenLayers · FastAPI · PostgreSQL/PostGIS · Redis
 
+## Front-end
 
----
-
-
-# FrontEnd
-
-
-## Primeira vez
-
-
+### Primeira execução
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-
-## Proximas vezes
-
-
+### Execuções seguintes
 ```bash
 cd frontend
 npm run dev
 ```
 
+## Back-end
 
-# BackEnd
- ## Primeira vez
-
-
-```bash
+### Primeira execução (PowerShell)
+```powershell
 cd backend
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+```
 
 ## A minha contribuição
 - Coordenação do grupo: organização de tarefas e prazos
